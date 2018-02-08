@@ -29,6 +29,7 @@ DEBUG = True
 # Application definition
 
 INSTALLED_APPS = [
+    'Billboard_site',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
