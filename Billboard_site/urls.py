@@ -1,1 +1,1 @@
-from django.conf.urls import urlfrom . import viewsurlpatterns = [    url(r'^$', views.index, name='index'),]
+from django.conf.urls import urlfrom . import viewsapp_name = 'Billboard_site'urlpatterns = [    url(r'^$', views.index, name='index'),    url(r'^newpost$', views.newpost, name='newpost'),]
