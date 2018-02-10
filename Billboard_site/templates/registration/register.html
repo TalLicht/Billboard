@@ -1,0 +1,1 @@
+{% extends "registration/login.html" %}{% block content %}    <div id="register">        <h1>Create account</h1>        <form method="post" >             {% csrf_token %}             {{ form.as_p  }}             <input class="btn" type="submit" name="submit" value="Register" />        </form>    </div>{% endblock %}
